@@ -6,7 +6,7 @@ An end-to-end data engineering project covering the full analytics stack from ra
 
 ## Architecture Overview
 
-![Architecture](images/architecture.png)
+![Architecture](images/architecture.jpeg)
 
 ---
 
@@ -37,7 +37,7 @@ An end-to-end data engineering project covering the full analytics stack from ra
 | `Dim_Year` | YearKey, Year |
 | `Dim_Economy` | EconomyKey, CountryKey, YearKey, Population, GDP |
 
-![Star Schema](images/star_schema.png)
+![Star Schema](images/star_schema.jpeg)
 
 ---
 
@@ -47,13 +47,13 @@ An end-to-end data engineering project covering the full analytics stack from ra
 
 The package follows a dependency-aware execution order dimensions are loaded before the fact table to ensure foreign key resolution.
 
-![SSIS Control Flow](images/ssis_control_flow.png)
+![SSIS Control Flow](images/ssis_control_flow.jpeg)
 
 ### Data Flow Dimensions
 
 Each dimension uses: `OLE DB Source → Data Conversion → Sort → OLE DB Destination`
 
-![SSIS Dim_Year Data Flow](images/ssis_dim_year.png)
+![SSIS Dim_Year Data Flow](images/ssis_dim_year.jpeg)
 
 ### Data Flow Fact_Energy
 
@@ -61,7 +61,7 @@ Foreign keys are resolved at load time via lookup transforms before inserting in
 
 `OLE DB Source → Dim_Country Lookup → Dim_Year Lookup → Dim_Economy Lookup → OLE DB Destination`
 
-![SSIS Fact_Energy Data Flow](images/ssis_fact_energy.png)
+![SSIS Fact_Energy Data Flow](images/ssis_fact_energy.jpeg)
 
 ---
 
@@ -84,7 +84,7 @@ Single-page dashboard filtered by country slicer, featuring:
 - **Line Chart** Energy Share Breakdown over Time (Fossil vs Low Carbon vs Renewables)
 - **Bar Chart** Greenhouse Gas Emissions by Year
 
-![Power BI Dashboard](images/dashboard.png)
+![Power BI Dashboard](images/dashboard.jpeg)
 
 ---
 
