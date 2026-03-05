@@ -1,0 +1,403 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cca86395-ecb9-4d6d-a12e-f6a0b2edac87" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Energy DW</ID>
+  <Name>Energy DW</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1991" scrolltop="-1171" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="17272" y="12319" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Economy" left="5420" top="6866" logicalid="8" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Economy" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Year" left="20" top="7405" logicalid="9" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Year" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fact_Energy" left="4528" top="212" logicalid="10" controlid="3" masterid="0" hint1="0" hint2="0" width="4784" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b012000072110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Fact_Energy" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Country" left="10820" top="7226" logicalid="11" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00009b070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Country" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6521" top="4378" logicalid="12" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="2988" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Fact_Economy]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="4" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6920" y="6866" />
+              <point x="6920" y="4678" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1121" top="4378" logicalid="13" controlid="6" masterid="0" hint1="0" hint2="0" width="4449" height="3527" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Fact_Year]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="4" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1520" y="7405" />
+              <point x="1520" y="5936" />
+              <point x="5270" y="5936" />
+              <point x="5270" y="4678" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8270" top="4378" logicalid="14" controlid="7" masterid="0" hint1="0" hint2="0" width="4450" height="3348" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Fact_Country]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="4" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12320" y="7226" />
+              <point x="12320" y="5846" />
+              <point x="8570" y="5846" />
+              <point x="8570" y="4678" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1991</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1171</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>212</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="fd98529a-4991-49fa-a86a-81adc219d039">
+      <ID>Dim Year</ID>
+      <Name>Dim Year</Name>
+      <DimensionID>Dim Year</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d1121996-5da1-48a4-84d3-91f37cdfe914">
+          <AttributeID>Year Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7ea7ddff-4ad3-411a-935d-cc85017929a8">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="c52982b0-b9cb-421e-b1b9-f307762464fe">
+      <ID>Dim Country</ID>
+      <Name>Dim Country</Name>
+      <DimensionID>Dim Country</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="16fd0a96-8c7f-427b-9596-b6ee54c887a7">
+          <AttributeID>Country Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="04c47f41-11b7-40b2-b3a9-b636335766e0">
+          <AttributeID>Country</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5213f41b-2cbe-415e-8c64-030908483659">
+          <AttributeID>ISO Code</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="5befdac5-c524-4699-b003-6763db0e9beb">
+      <ID>Dim Economy</ID>
+      <Name>Dim Economy</Name>
+      <DimensionID>Dim Economy</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b6ac6a82-5c05-478c-aa15-05d559e85a49">
+          <AttributeID>Economy Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="af360f52-4664-4e1d-9a97-ce0d3db3d499">
+          <AttributeID>Year Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e3c7473c-9189-472d-a6e4-759906bc4b6b">
+          <AttributeID>Country Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fbdc7a10-b314-4cda-baea-d5c065c91be7">
+          <AttributeID>Population</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9cd161c6-359d-48ed-b602-8500298dddfd">
+          <AttributeID>GDP</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="37a1c86a-d3b9-40b3-b279-641e58383e8d">
+      <ID>Fact Energy</ID>
+      <Name>Fact Energy</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="7d836633-f933-4c8c-907e-4bb063fc73dd">
+          <ID>Primary Energy Consumption</ID>
+          <Name>Primary Energy Consumption</Name>
+          <Source dwd:design-time-name="fdb7e6ad-00f4-41d0-85a2-e73ecb0223ad">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="36f4d032-3ba6-44fc-bc4f-a0bf1901b390">
+              <TableID>dbo_Fact_Energy</TableID>
+              <ColumnID>PrimaryEnergyConsumption</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="86737945-2260-434f-a81d-767219ef9678">
+          <ID>Energy Per Capita</ID>
+          <Name>Energy Per Capita</Name>
+          <Source dwd:design-time-name="7e3e85e4-76a9-41fd-97d7-42ad5268af71">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="70b56ed4-e9ac-48b2-8051-593494393e84">
+              <TableID>dbo_Fact_Energy</TableID>
+              <ColumnID>EnergyPerCapita</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0c2531cb-e01f-4702-9900-959ab8574076">
+          <ID>Greenhouse Gas Emissions</ID>
+          <Name>Greenhouse Gas Emissions</Name>
+          <Source dwd:design-time-name="d4af221b-00c6-4ca0-b17f-77c9ca8b1c75">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0735d7f1-2a78-4c79-8e63-75ef5957aaf8">
+              <TableID>dbo_Fact_Energy</TableID>
+              <ColumnID>GreenhouseGasEmissions</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="521686ce-ff4c-4a6e-9e3e-6f9af86397fb">
+          <ID>Renewables Share Energy</ID>
+          <Name>Renewables Share Energy</Name>
+          <Source dwd:design-time-name="77a3306b-3709-4c53-b94e-af54db0f6e17">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c9622310-5ac0-4c13-9841-fb8269ac3170">
+              <TableID>dbo_Fact_Energy</TableID>
+              <ColumnID>RenewablesShareEnergy</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9adce6d0-e5ec-4f28-89c5-88bf712449ba">
+          <ID>Fossil Share Energy</ID>
+          <Name>Fossil Share Energy</Name>
+          <Source dwd:design-time-name="cf33457f-7140-4050-9327-72e86db66dfd">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="73084ef6-ab49-4b42-a460-eefd1eab7098">
+              <TableID>dbo_Fact_Energy</TableID>
+              <ColumnID>FossilShareEnergy</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6dcddb21-cdd3-48d1-b735-61f4424a3b5a">
+          <ID>Low Carbon Share Energy</ID>
+          <Name>Low Carbon Share Energy</Name>
+          <Source dwd:design-time-name="17bfa6f9-7132-4973-a212-a12cd7679901">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0204bee0-71d3-47ed-b396-1b767931f019">
+              <TableID>dbo_Fact_Energy</TableID>
+              <ColumnID>LowCarbonShareEnergy</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="fc4bbec2-85a6-409f-af35-c8f77d1b51f7">
+          <ID>Fact Energy Count</ID>
+          <Name>Fact Energy Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="232af290-5d16-462f-a2f6-256a1c01ad91">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="ea21ddab-a937-4591-81d2-8d089f7535a0">
+              <TableID>dbo_Fact_Energy</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f73a8f5d-4b8f-47b7-bf5a-25fc825c7349">
+          <CubeDimensionID>Dim Year</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5f0dc5aa-b024-42a6-b3a1-628f4c34a229">
+              <AttributeID>Year Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="80e92b90-62f9-42c1-8c29-0c5c4e2e2c1d">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c4201594-9f63-4899-ac93-0f56f73bd5ca">
+                    <TableID>dbo_Fact_Energy</TableID>
+                    <ColumnID>YearKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="dd26c5cc-59c4-4990-9635-b0b2208857e2">
+          <CubeDimensionID>Dim Country</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b7814933-0273-4aff-922e-b20e9268e21f">
+              <AttributeID>Country Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="500a9de7-7692-4297-8e44-c96ac566a0a1">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5cfd5406-a8a5-4f0e-946d-5cfaa2b1eb1e">
+                    <TableID>dbo_Fact_Energy</TableID>
+                    <ColumnID>CountryKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a81525dd-f1c6-4807-b63e-d8c713d8db69">
+          <CubeDimensionID>Dim Economy</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="025920bb-6cc5-4b4d-a3f8-60bca2c6304b">
+              <AttributeID>Economy Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8c37d6d4-660a-42b0-980c-6ea355074c50">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="01f2f072-34d5-4066-ab64-0a5cba668b2b">
+                    <TableID>dbo_Fact_Energy</TableID>
+                    <ColumnID>EconomyKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="9af4f243-420a-4dd0-8432-6c29f96eb8c2">
+    <DataSourceViewID>Energy DW</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="39fcb22c-b35b-4797-b55b-3d019936217a">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE; 
+CREATE MEMBER CURRENTCUBE.[Measures].Energy_Intensity
+ AS IIF(
+  [Measures].[GDP] = 0 OR [Measures].[GDP] IS NULL,
+  NULL,
+  [Measures].[Primary Energy Consumption] / [Measures].[GDP]
+), 
+FORMAT_STRING = "Short Date", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Fact Energy'  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].Decarbonization_Rate
+ AS IIF(
+  ([Measures].[Fossil Share Energy], [Dim Year].[Year].CurrentMember.PrevMember) IS NULL,
+  NULL,
+  ([Measures].[Fossil Share Energy], [Dim Year].[Year].CurrentMember)
+  -
+  ([Measures].[Fossil Share Energy], [Dim Year].[Year].CurrentMember.PrevMember)
+), 
+FORMAT_STRING = "#,##0.00%", 
+VISIBLE = 1  ; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>
